@@ -1,0 +1,45 @@
+@import "~normalize.css/normalize.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Notable&display=swap');
+
+$colors: (primary: orangered, secondary: #81c4c8, dark: #111111);
+
+
+html {
+    height: 100%;
+}
+
+html,
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    overflow-x: hidden;
+    line-height: 1.65
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+#gatsby-focus-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.title {
+    font-family: 'Notable', sans-serif;
+    letter-spacing: 3px;
+    line-height: 1.26
+}
+
+@each $key, $value in $colors {
+    .color--#{$key} {
+        color: $value;
+    }
+}
+
+@import "app/main";

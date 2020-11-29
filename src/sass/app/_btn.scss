@@ -1,0 +1,49 @@
+
+a.btn,
+button.btn {
+    padding: 12px 24px;
+    display: inline-block;
+    text-decoration: none;
+    color: gray;
+    font-weight: 700;
+    border: solid gray;
+    border-top-width: 1px;
+    border-bottom-width: 3px;
+    border-left-width: 1px;
+    border-right-width: 6px;
+    transition: all 0.2s ease;
+    border-radius: 10px;
+    & + & {
+        margin-left: 10px;
+    }
+    &::after {
+        content: "\279C";
+        margin-left: 5px;
+        display: inline-block;
+        transition: all 0.2s ease;
+    }
+    &:hover {
+        text-decoration: none;
+        background: gray;
+        color: #fff;
+        &::after {
+            transform: translateX(10px)
+        }
+    }
+}
+
+@each $key, $value in $colors {
+    button.btn--#{$key},
+    a.btn--#{$key} {
+        color: $value;
+        border: solid $value;
+        border-top-width: 1px;
+        border-bottom-width: 3px;
+        border-left-width: 1px;
+        border-right-width: 6px;
+
+        &:hover {
+            background: $value;
+        }
+    }
+}

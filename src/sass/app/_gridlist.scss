@@ -1,0 +1,16 @@
+.grid-item {
+    position: relative;
+    background-color: color(dark);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+    &::before {
+        content: "";
+        padding-bottom: 100%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
