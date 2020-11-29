@@ -9,7 +9,6 @@
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/website.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/Section.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/Title.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/grid/GridItem.js" afterDir="false" />
@@ -41,10 +40,10 @@
       <change afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/utils/color.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/utils/shadow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" />
@@ -113,7 +112,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606560116480</updated>
       <workItem from="1606560117587" duration="28683000" />
-      <workItem from="1606590764926" duration="22043000" />
+      <workItem from="1606590764926" duration="22897000" />
     </task>
     <servers />
   </component>
