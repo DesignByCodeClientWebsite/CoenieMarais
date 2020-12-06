@@ -2,34 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34c1e2a2-1640-4634-9550-11a3d1b1b6bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Parallax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tilt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/work.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/main.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Title.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Title.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/grid/GridList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/grid/GridList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/hero/HeroCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/HeroCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/hero/HeroCardList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/HeroCardList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/hero/HeroLogo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/HeroLogo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hero/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/Hero.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/favicon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/favicon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/work.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/work.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/app/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/app/_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/app/_gridlist.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/app/_gridlist.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/color.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/color.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/app/_headroom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/app/_headroom.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +56,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\www\Clients\CoenieMarais\website\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 203.5981.43\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -98,6 +81,7 @@
       <workItem from="1607162672992" duration="14405000" />
       <workItem from="1607197024153" duration="33407000" />
       <workItem from="1607260976121" duration="1407000" />
+      <workItem from="1607269998755" duration="9201000" />
     </task>
     <servers />
   </component>

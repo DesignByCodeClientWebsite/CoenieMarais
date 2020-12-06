@@ -27,6 +27,6 @@ const HeroSection = styled.section`
     width: 100%;
     display: flex;
     align-items: center;
-    padding: 90px 0;
+    padding: 140px 0 90px 0;
     
 `

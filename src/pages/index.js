@@ -13,10 +13,7 @@ import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
-
 const index = ({data}) => {
-
-
 
     return  (
         <>
@@ -132,14 +129,11 @@ const index = ({data}) => {
                     <GridList/>
                 </div>
             </Section>
-
         </>
     )
 }
 
-
 export default index
-
 
 const Images1 = styled.img`
     position: relative;

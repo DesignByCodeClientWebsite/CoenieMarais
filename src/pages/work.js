@@ -11,7 +11,8 @@ const WorkPage = ({ data }) =>
     (
         <>
             <SEO title='Our Work' />
-            <Parallax img={Img1}>
+            <div style={{height: '60px', width: "100%"}}></div>
+            <Parallax img={Img1} >
                 <header className='heading-group'>
                     <h1>Here is just a few</h1>
                     <h2 className='hand'>of our <span aria-label="smileing" role="img" style={{fontSize: '50%'}}>😊</span>  happy clients </h2>

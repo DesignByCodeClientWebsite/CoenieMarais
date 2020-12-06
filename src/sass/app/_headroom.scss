@@ -1,4 +1,8 @@
 .headroom--unpinned nav {
     background: #fff;
-    box-shadow: rgba(black, 0.1) 0 3px 15px;
+    @media screen and (min-width: 890px) {
+        box-shadow: rgba(black, 0.1) 0 3px 15px;
+        transform: translateY(-45px);
+        transition: ease 0.25s transform;
+    }
 }

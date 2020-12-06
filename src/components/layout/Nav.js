@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Link from "gatsby-link"
 import PropTypes from "prop-types"
 import Headroom from "react-headroom"
@@ -6,11 +6,38 @@ import styled from 'styled-components'
 import color from "../../utils/color"
 // import logo from './../../images/nav-logo.svg'
 
+import { FiMenu } from 'react-icons/fi'
+
 const Nav = ({siteTitle}) => {
+
+    let [isOpen, setIsOpen] = useState(true)
+
+    useEffect(() => {
+        let listener = window.addEventListener('resize', () => {
+            handleResize()
+        })
+
+        return window.removeEventListener('resize', listener)
+    })
+
+    const handleToggleMenu = (e) => {
+        return setIsOpen(!isOpen)
+    }
+
+
+    const handleResize = () => {
+        if (window.innerWidth > 890 && isOpen) {
+            setIsOpen(true)
+        }
+    }
+    
     return  (
         <Headroom >
             <Navbar>
-                <NavbarWrapper className="wrapper">
+                <NavIcon onClick={handleToggleMenu}>
+                    <FiMenu size={22} strokeWidth={3} stroke={color.primary}/>
+                </NavIcon>
+                {isOpen &&  <NavbarWrapper className="wrapper">
                     <Brand className="title">
                         <Link className="hand" to="/">
                             Coenie Marais
@@ -35,6 +62,7 @@ const Nav = ({siteTitle}) => {
                         </li>
                     </Ul>
                 </NavbarWrapper>
+}
             </Navbar>
         </Headroom>
     )
@@ -51,7 +79,7 @@ Nav.defaultProps = {
 export default Nav
 
 const Brand = styled.div`
-    font-size: 22px;
+    font-size: 28px;
     a {
         color: ${color.dark};
         text-decoration: none;
@@ -61,14 +89,26 @@ const Brand = styled.div`
 const Navbar = styled.nav`
     position: fixed;
     width: 100%;
+    height: 100vh;
     z-index: 100;
     background: ${color.white};
     transition: box-shadow 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: ease 0.2s transform;
+    will-change: transform;
+    @media(min-width: 890px) {
+        height: auto;
+    }
 `
 const NavbarWrapper = styled.div`
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    flex-direction: column;
+
 `
 const Ul = styled.ul`
     list-style: none;
@@ -76,7 +116,12 @@ const Ul = styled.ul`
     margin: 0;
     li {
         display: inline-block;
-        margin-left: 8px;
+        margin: 8px;
+        width: 100%;
+        @media(min-width: 890px) {
+            width: auto;
+            margin: 0 4px;
+        }
     }
     a {
        padding: 10px 16px;
@@ -107,4 +152,21 @@ const Ul = styled.ul`
             color: ${color.dark}
        }
     }
+`
+
+const NavIcon = styled.aside`
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: ${color.gray.light};
+    border: solid 2px ${color.primary};
+    right: 10px;
+    top: 10px;
+    @media(min-width: 890px) {
+        display: none;
+    }   
 `
