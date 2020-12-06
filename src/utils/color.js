@@ -3,7 +3,7 @@ export default {
     primary: 'orangered',
     secondary: '#81c4c8',
     gray: {
-        light: '#e1e1e1',
+        light: '#f6f6f6',
         medium: '#888',
         dark: '#333'
     },

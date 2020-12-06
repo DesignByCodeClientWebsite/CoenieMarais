@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 import Headroom from "react-headroom"
 import styled from 'styled-components'
 import color from "../../utils/color"
-import logo from './../../images/nav-logo.svg'
+// import logo from './../../images/nav-logo.svg'
 
 const Nav = ({siteTitle}) => {
     return  (
@@ -12,8 +12,9 @@ const Nav = ({siteTitle}) => {
             <Navbar>
                 <NavbarWrapper className="wrapper">
                     <Brand className="title">
-                        <Link to="/">
-                            <img style={{height: '40px'}} src={logo} alt="logo" />
+                        <Link className="hand" to="/">
+                            Coenie Marais
+                            {/*<img style={{height: '40px'}} src={logo} alt="logo" />*/}
                         </Link>
                     </Brand>
                     <Ul>
@@ -24,7 +25,13 @@ const Nav = ({siteTitle}) => {
                             <Link to="/about/">ABOUT</Link>
                         </li>
                         <li>
-                            <Link to="/services">SERVICES</Link>
+                            <Link to="/services/">SERVICES</Link>
+                        </li>
+                        <li>
+                            <Link to="/work/">OUR WORK</Link>
+                        </li>
+                        <li>
+                            <Link to="/contact/">CONTACT US</Link>
                         </li>
                     </Ul>
                 </NavbarWrapper>
@@ -75,7 +82,7 @@ const Ul = styled.ul`
        padding: 10px 16px;
        display: block;
        background: transparent;
-       color: ${color.gray.medium};
+       color: ${color.dark};
        border-radius: 10px;
        text-decoration: none;
        border-top: solid 1px transparent;
@@ -93,11 +100,11 @@ const Ul = styled.ul`
             color: ${color.primary}
        }
        &:not([aria-current="page"]):hover {
-            border-top: solid 1px ${color.secondary};
-            border-left: solid 1px ${color.secondary};
-            border-bottom: solid 3px ${color.secondary};
-            border-right: solid 6px ${color.secondary};
-            color: ${color.secondary}
+            border-top: solid 1px ${color.dark};
+            border-left: solid 1px ${color.dark};
+            border-bottom: solid 3px ${color.dark};
+            border-right: solid 6px ${color.dark};
+            color: ${color.dark}
        }
     }
 `

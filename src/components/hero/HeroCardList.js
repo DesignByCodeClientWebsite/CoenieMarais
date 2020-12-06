@@ -26,14 +26,10 @@ const HeroCardList = () => {
 
     return  (
         <List>
-
             {DATA && DATA.map((item, index) => {
                 return <HeroCard key={index} color={item.color} img={item.img}/>
             })
-
             }
-
-
         </List>
     )
 }

@@ -1,8 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 
-
-
 const HeroCard = ({color, img}) => {
     return  (
         <Card style={{backgroundColor: color}}>
@@ -13,7 +11,6 @@ const HeroCard = ({color, img}) => {
 }
 
 export default HeroCard
-
 
 const Card = styled.div`
     width: 450px;

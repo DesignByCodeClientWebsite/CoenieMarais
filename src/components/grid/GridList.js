@@ -3,7 +3,7 @@ import GridItem from "./GridItem"
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import ClientDBC from './../../images/clients/designbycode.svg'
-
+import { v4 as uuidv4 } from 'uuid'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -11,57 +11,57 @@ const GridList = (props) => {
 
     const scrollTriggerRef = React.createRef();
 
-    const scrollAnimation = () => {
-        gsap.from(".ci", {
-            scrollTrigger: {
-                trigger: scrollTriggerRef.current,
-                toggleActions: "play none none reverse",
-                start: "top 80%",
-                end: "bottom 90%",
-                scrub: 1,
-                markers: false
-            },
-            opacity: 0,
-            y: 100,
-            stagger: {
-                amount: 0.5
-            }
-        });
-    };
+    // const scrollAnimation = () => {
+    //     gsap.to(".ci", {
+    //         scrollTrigger: {
+    //             trigger: scrollTriggerRef.current,
+    //             toggleActions: "play none none none",
+    //             start: "top 80%",
+    //             end: "top 20%",
+    //             scrub: 1,
+    //             markers: false
+    //         },
+    //         opacity: 1,
+    //         x: 100,
+    //         stagger: {
+    //             amount: 0.5
+    //         }
+    //     });
+    // };
 
     useEffect(() => {
-        scrollAnimation();
+        // scrollAnimation();
     });
 
 
     const DATA = [
         {
-            id: 1,
+            id: uuidv4(),
             name: "DesignByCode",
             image: ClientDBC
         },
         {
-            id: 2,
+            id: uuidv4(),
             name: "COENIE MARAIS",
             image: ClientDBC
         },
         {
-            id: 3,
+            id: uuidv4(),
             name: "ZANEL",
             image: ClientDBC
         },
         {
-            id: 4,
+            id: uuidv4(),
             name: "CLAUDE MYBURGH",
             image: ClientDBC
         },
         {
-            id: 5,
+            id: uuidv4(),
             name: "Blomma",
             image: ClientDBC
         },
         {
-            id: 6,
+            id: uuidv4(),
             name: "DesignByCode",
             image: ClientDBC
         }
@@ -71,7 +71,7 @@ const GridList = (props) => {
         <div ref={scrollTriggerRef}  className="row">
             {DATA && DATA.map(item => {
                 return(
-                    <div key={item.id}  className="xs-col-6 md-col-4 ci">
+                    <div key={item.id.toString()}  className="xs-col-6 lg-col-4 ci">
                         <GridItem name={item.name} image={item.image}/>
                     </div>
                 )

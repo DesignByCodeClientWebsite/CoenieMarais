@@ -4,7 +4,7 @@ $breakpoint: (
     sm: 480px,
     md: 800px,
     lg: 960px,
-    xl: 1200px
+    xl: 1100px
 );
 
 @mixin media($value) {
@@ -49,7 +49,7 @@ $breakpoint: (
         }
         .#{$key}-col-#{$i} {
             @include media($value) {
-                width: (100% / 12) * $i;
+                width: (100% / 12) * $i !important;
             }
         }
     }

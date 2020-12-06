@@ -31,6 +31,7 @@ const Logo = styled.div`
     box-shadow: ${shadow.level3};
     z-index: 5;
     transform: translateZ(0px);
+    
 `
 
 const Image = styled.img`

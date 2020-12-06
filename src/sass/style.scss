@@ -1,6 +1,6 @@
 @import "~normalize.css/normalize.css";
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Notable&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Notable&family=Niconne&display=swap');
 
 $colors: (primary: orangered, secondary: #81c4c8, dark: #111111);
 
@@ -31,9 +31,44 @@ body{
 }
 
 .title {
-    font-family: 'Notable', sans-serif;
+    //font-family: 'Notable', sans-serif;
     letter-spacing: 3px;
-    line-height: 1.26
+    line-height: 1.26;
+
+    &-initial {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+.hand {
+    font-family: 'Niconne', cursive;
+    font-weight: 400;
+}
+
+.m-0 {
+    padding: 0;
+    margin: 0;
+}
+
+.mb {
+    margin-bottom: 15px;
+}
+
+.heading-group {
+    h1, h2, h3 {
+        padding: 0;
+        margin: 0;
+    }
+    h2 {
+        font-size: clamp(24px, 14vw, 82px);
+        line-height: 0.68;
+    }
+
+    h3 {
+        font-style: italic;
+        font-size: clamp(18px, 6vw, 32px);
+    }
 }
 
 @each $key, $value in $colors {

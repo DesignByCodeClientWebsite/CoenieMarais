@@ -1,7 +1,13 @@
 import React from 'react'
+import SEO from '../components/layout/seo'
 
 const ServicesPage = () => {
-    return <div>Services Page</div>
+    return (
+        <>
+            <SEO title="Services"/>
+            <div>Services Page</div>
+        </>
+    )
 }
 
 export default ServicesPage

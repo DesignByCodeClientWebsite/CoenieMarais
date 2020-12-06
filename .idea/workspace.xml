@@ -2,57 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34c1e2a2-1640-4634-9550-11a3d1b1b6bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/website.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Section.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Title.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/grid/GridItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/grid/GridList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/hero/Hero.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/hero/HeroCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/hero/HeroCardList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/hero/HeroLogo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/Layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/Nav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/seo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hoc/WithTilt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/bag-rack.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/caps-case.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/clients/designbycode.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/hair-salon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/hideout.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/nav-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/services.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/app/_btn.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/app/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/app/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/app/_gridlist.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/app/_headroom.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/app/_main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/app/_panel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/color.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/shadow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Parallax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tilt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/work.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/main.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/seo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Section.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Title.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Title.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/grid/GridList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/grid/GridList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hero/HeroCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/HeroCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hero/HeroCardList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/HeroCardList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hero/HeroLogo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/HeroLogo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/favicon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/favicon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/page-2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/using-typescript.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/app/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/app/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/app/_gridlist.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/app/_gridlist.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/color.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/color.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +64,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.ns.project" value="true" />
     <property name="js.ns.project.flavor" value="JavaScript" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -95,10 +73,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\www\Clients\CoenieMarais\website\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\www\Clients\CoenieMarais\website\src\pages" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\www\Clients\CoenieMarais\website\src\components\hero" />
       <recent name="C:\www\Clients\CoenieMarais\website\src\components\layout" />
@@ -114,6 +95,9 @@
       <updated>1606560116480</updated>
       <workItem from="1606560117587" duration="28683000" />
       <workItem from="1606590764926" duration="25238000" />
+      <workItem from="1607162672992" duration="14405000" />
+      <workItem from="1607197024153" duration="33407000" />
+      <workItem from="1607260976121" duration="1407000" />
     </task>
     <servers />
   </component>
