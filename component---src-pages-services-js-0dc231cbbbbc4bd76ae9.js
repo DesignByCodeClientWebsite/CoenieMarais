@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{wCYt:function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),r=n.n(a),c=n("phMG");t.default=function(){return r.a.createElement(r.a.Fragment,null,r.a.createElement(c.a,{title:"Services"}),r.a.createElement("div",null,"Services Page"))}}}]);
+//# sourceMappingURL=component---src-pages-services-js-0dc231cbbbbc4bd76ae9.js.map
