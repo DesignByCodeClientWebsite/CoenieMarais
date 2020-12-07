@@ -2,42 +2,27 @@ import React from "react"
 
 import SEO from "../components/layout/seo"
 import Section from "../components/Section"
-import Title from "../components/Title"
 import color from "../utils/color"
-import GridList from "../components/grid/GridList"
 
 const AboutPage = () => (
 
     <>
         <SEO title="About Us" />
-        <Section svgColor={color.gray.light}>
-            <div className="md-col-6">
+        <Section svgColor={color.white} backgroundColor={color.white}>
+            <div className="md-col-6"  style={{paddingTop: '90px'}}>
                 <div>
-                    <Title color={color.secondary}>Here is just a few of our happy client projects.</Title>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto atque ea error explicabo odit perspiciatis voluptatem. Debitis eveniet exercitationem laboriosam praesentium ut? A beatae, esse fugiat iste obcaecati suscipit ut.</p>
+                    <header className='heading-group'>
+                        <h1>Need content</h1>
+                        <h2 className='hand'>for about <span aria-label="camara with flash" role="img" style={{fontSize: '50%'}}>📸</span>  page </h2>
+                        <h3>finished projects  </h3>
+                    </header>
+
+                    <p>I need images and content for the about page.</p>
+                    <p>This is 60 words from &rarr; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio laudantium nihil officia sunt? Aliquid dicta esse magnam molestiae nisi non quis quisquam quo veniam voluptatem. Accusamus beatae deserunt dolores et fuga harum hic impedit non. Aliquam aliquid amet aperiam architecto at deleniti earum eius ipsa ipsam itaque laboriosam maiores nihil nisi numquam porro provident, quasi quos tempore vel velit, veniam.</p>
                     <a href="#tag" className="btn btn--secondary">Button 1</a>
                 </div>
             </div>
-            <div className="md-col-6">
-                <GridList/>
-
-            </div>
         </Section>
-
-        <Section backgroundColor={color.primary} svgColor={color.gray.light}>
-            <div className="md-col-6">
-                <div>
-                    <Title color={color.dark}><span className="hand">Hello world, to my</span> about page</Title>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto atque ea error explicabo odit perspiciatis voluptatem. Debitis eveniet exercitationem laboriosam praesentium ut? A beatae, esse fugiat iste obcaecati suscipit ut.</p>
-                    <a href="#tag" className="btn btn--dark">Button 1</a>
-                </div>
-            </div>
-            <div className="md-col-6">
-                <GridList/>
-            </div>
-        </Section>
-
-
     </>
 )
 

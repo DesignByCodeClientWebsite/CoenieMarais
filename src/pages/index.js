@@ -19,7 +19,7 @@ const index = ({data}) => {
         <>
             <SEO title="Home" />
             <Hero/>
-            <Section backgroundColor={color.white} svgColor={color.white}>
+            <Section backgroundColor={color.gray.light} svgColor={color.white}>
                 <div className='row'>
                     <div className='md-col-4'>
                         <Images1 src={Img1} alt='Welcome to coenie marais' />
@@ -49,7 +49,7 @@ const index = ({data}) => {
                 </div>
             </Section>
 
-            <Section backgroundColor={color.gray.light} svgColor={color.white}>
+            <Section backgroundColor={color.white} svgColor={color.gray.light}>
                 <div className='row'>
                     <div className='md-col-8'>
                         <div className='row'>
@@ -113,15 +113,18 @@ const index = ({data}) => {
             {/*</Section>*/}
 
 
-            <Section backgroundColor={color.white} svgColor={color.gray.light}>
+            <Section backgroundColor={color.gray.light} svgColor={color.white}>
                 <div className="md-col-6">
                     <div className="mb">
                         <header className='heading-group'>
                             <h1>Here is just a few</h1>
                             <h2 className='hand'>of our <span aria-label="smileing" role="img" style={{fontSize: '50%'}}>😊</span>  happy clients </h2>
-                            <h3>work <span aria-label="sparkels" role="img">✨</span> </h3>
+                            <h3>finished projects <span aria-label="sparkels" role="img">✨</span> </h3>
                         </header>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum harum magni minima nihil porro. Delectus esse nisi quia reprehenderit temporibus! Ab aperiam autem commodi cupiditate dicta doloremque doloribus itaque molestiae, nulla, ratione, sed sunt suscipit vel! Accusamus atque aut blanditiis consequatur distinctio</p>
+                        <p>
+                            I need about 6 business client names and logos.
+                        </p>
+                        <p>[DUMMY TEST] &rarr; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid consequatur eaque incidunt molestiae voluptas? Architecto inventore modi nobis non repudiandae, suscipit unde voluptatem. Ipsam obcaecati totam voluptas voluptatum! Amet architecto assumenda aut autem corporis cumque eius, eligendi enim facere ipsam minus mollitia omnis perspiciatis possimus, quas sunt, ullam vero voluptate?</p>
                         <Link to="/work/" className="btn btn--dark">View Our Work</Link>
                     </div>
                 </div>

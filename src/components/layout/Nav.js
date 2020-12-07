@@ -136,6 +136,7 @@ const Ul = styled.ul`
        border-right: solid 6px transparent;
        font-weight: bold;
        transition: color, border 0.25s ease;
+       transform: skewX(-4deg);
        
        &[aria-current="page"] {
             border-top: solid 1px ${color.primary};

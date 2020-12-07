@@ -12,6 +12,7 @@ button.btn {
     border-left-width: 1px;
     border-right-width: 6px;
     transition: all 0.2s ease;
+    transform: skewX(-4deg);
     border-radius: 10px;
     & + & {
         margin-left: 10px;
