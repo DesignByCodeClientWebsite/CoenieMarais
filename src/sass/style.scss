@@ -56,6 +56,7 @@ body{
 }
 
 .heading-group {
+
     h1, h2, h3 {
         padding: 0;
         margin: 0;
@@ -76,5 +77,22 @@ body{
         color: $value;
     }
 }
+
+
+.glass {
+    background: rgba(white, 0.05);
+    padding: 30px;
+    border-radius: 10px;
+    transform: translateX(-170px);
+    backdrop-filter: blur(5px);
+    background-clip: padding-box;
+    border-top: solid 3px transparent;
+    border-left: solid 3px transparent;
+    border-right: solid 3px rgba(black, 0.05);
+    border-bottom: solid 3px rgba(black, 0.05);
+    box-shadow: rgba(black, 0.05) 0 10px 30px;
+    text-shadow: rgba(white, 0.15) 2px 2px 2px;
+}
+
 
 @import "app/main";

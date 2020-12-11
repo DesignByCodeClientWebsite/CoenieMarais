@@ -116,7 +116,7 @@ const index = ({data}) => {
             <Section backgroundColor={color.gray.light} svgColor={color.white}>
                 <div className="md-col-6">
                     <div className="mb">
-                        <header className='heading-group'>
+                        <header className='heading-group '>
                             <h1>Here is just a few</h1>
                             <h2 className='hand'>of our <span aria-label="smileing" role="img" style={{fontSize: '50%'}}>😊</span>  happy clients </h2>
                             <h3>finished projects <span aria-label="sparkels" role="img">✨</span> </h3>

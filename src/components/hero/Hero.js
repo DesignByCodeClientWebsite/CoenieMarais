@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styled from 'styled-components'
 import HeroLogo from "./HeroLogo"
 import HeroCardList from "./HeroCardList"
+import LongShadow from '../../utils/LongShadow'
+
 
 const Hero = () => {
+
+    useEffect(() => {
+
+    })
+
     return  (
         <HeroSection>
             <div className="wrapper">
